@@ -1,0 +1,116 @@
+.cv-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+}
+
+.cv-name {
+    text-align: left;
+}
+
+.cv-contact-details{
+    text-align: right;
+}
+
+.cv-p {
+    color: #EEEEEE;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.cv-p-tiny {
+    font-size: x-small;
+    color: #dcdcdc;
+}
+
+.cv-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+
+    text-align: left;
+}
+
+.cv-skills-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.cv-skills-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cv-skill-title {
+    border-top: #a6e3e9 1px solid;
+    border-bottom: #a6e3e9 1px solid;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cv-skill-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cv-skill-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cv-skill-bubble {
+    background-color: #66BFBF;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #eeeeee;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
+.cv-year-location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cv-skill-point {
+    color: #eeeeee;
+    /* font-weight: bold; */
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.cv-dash {
+    color: #a6e3e9;
+    font-weight: bold;
+}
+
+.cv-hr {
+    margin: 1rem auto;
+    border-color: #a6e3e9;
+}
+
+.cv-skill-row-bubbles {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cv-prof-level {
+    font-style: italic;
+    color: #a6e3e9;
+}
+
+.cv-go-back a {
+    color: #a6e3e9;
+    font-weight: bold;
+    font-style: italic;
+}

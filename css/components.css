@@ -1,0 +1,44 @@
+.cv-button {
+    height: 2rem;
+    width: 10rem;
+
+    border-radius: 0.5rem;
+    border-color: #66BFBF;
+    border-style: solid;
+
+    background-color: #66BFBF;
+
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color:#EEEEEE;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill-p {
+    color: #eeeeee;
+    margin: 0;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.skill-image {
+    display: flex;
+    justify-content: center;
+}
